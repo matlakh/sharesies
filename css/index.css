@@ -1,0 +1,215 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+ul li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1640px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.back-drops::after {
+  content: "";
+  background-image: url(../img/arrow.svg);
+  background-repeat: no-repeat;
+  width: 12px;
+  height: 12px;
+  margin-left: 5px;
+  padding-top: 5px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.header {
+  padding-top: 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__img {
+  max-width: 150px;
+  width: 100%;
+}
+
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 360px;
+  width: 100%;
+}
+
+.header__item a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: #1e1e1e;
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__item a:hover {
+  border-bottom: 2px solid #ef496f;
+}
+
+.header__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__login, .header__signup {
+  border: 2px solid #1e1e1e;
+  border-radius: 100px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+  color: #1e1e1e;
+  padding: 20px 30px;
+  -webkit-transition: border-color 0.15s ease-in-out, background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+.header__login:hover, .header__signup:hover {
+  background: #fff;
+  border: 2px solid #fff;
+}
+
+.header__signup {
+  background: #1e1e1e;
+  margin-left: 20px;
+  color: #fff;
+}
+
+.header__signup:hover {
+  color: #1e1e1e;
+}
+
+.shares {
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  padding-top: 220px;
+  background: linear-gradient(287.65deg, #ffc0cf -38.52%, #fef3f6 87.53%);
+  height: 100vh;
+}
+
+.shares__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.shares__title {
+  max-width: 788px;
+  width: 100%;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 120px;
+  line-height: 120%;
+  color: #ef496f;
+  margin-bottom: 20px;
+}
+
+.shares__text {
+  max-width: 788px;
+  width: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 120%;
+  color: #1e1e1e;
+  margin-bottom: 50px;
+}
+
+.shares__button {
+  padding: 20px;
+  background: #ef496f;
+  border-radius: 100px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 120%;
+  color: #ffffff;
+}
+
+.shares__button:hover {
+  background: #fff;
+  color: #ef496f;
+}
+
+.shares__img {
+  position: absolute;
+  width: 978px;
+  right: 0;
+  bottom: -5px;
+}
+
+.shares__img img {
+  width: 100%;
+}
+
+.shares__pretitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 120%;
+  color: #1E1E1E;
+  margin-top: 100px;
+}
+/*# sourceMappingURL=index.css.map */
